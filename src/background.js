@@ -1,3 +1,3 @@
-chrome.tabs.onUpdated.addListener((tabId, tab) => {
-  // here goes any background code
+chrome.tabs.onUpdated.addListener(() => {
+  console.log("hello world");
 });
