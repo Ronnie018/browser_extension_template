@@ -6,4 +6,4 @@
 
 ##### 
 
-![setting config file](https://github.com/ronnie018/browser_extension_template/blob/main/image.jpg?raw=true)
+![setting config file](https://raw.githubusercontent.com/Ronnie018/browser_extension_template/main/docs/static/names.PNG?raw=true)
