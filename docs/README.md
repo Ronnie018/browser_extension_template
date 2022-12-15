@@ -88,20 +88,19 @@ these fields define which websites the extension will target, so it will not exe
 
  ***this file is responsable for define code for specific events in the browser, since it doesn't have access to DOM elements we don't have much to do with it.***
 
-<code style="color: #252525;">chrome.tabs.onUpdated.addListener(() => {
-    <span style="color: #3f3f4d;">console.log(<strong style="color: #dd8d14;">"hello world!"</strong>);</span>
+```
+  chrome.tabs.onUpdated.addListener(() => {
+    console.log("hello world!");
   });
-  <span style="color: #7fd87f;">// the code does not run in the page but in the browser itself.</span>
-</code>
+  // the code does not run in the page but in the browser itself.
+```
 
 ### ContentScript Main extension file
 
 ***Basically, where all your extension logic will be written, the file paths listed in "content_scripts" can communicate directly with the browsed page.***
 
-<code>
+```
   (() => {
-    // your code must be inside this function
-  
     const elementConfig = {
       color: "#ffffff",
       bgColor: "#333333",
@@ -122,5 +121,5 @@ these fields define which websites the extension will target, so it will not exe
     htmlTag.appendChild(newElement);
     
   })();  
-</code>
+```
 
