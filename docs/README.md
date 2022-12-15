@@ -6,7 +6,7 @@
 
 #### URL fields
 
-![setting config file](https://raw.githubusercontent.com/Ronnie018/browser_extension_template/main/docs/static/names.PNG?raw=true)
+![setting config file](https://raw.githubusercontent.com/Ronnie018/browser_extension_template/master/docs/static/setting_target.PNG?raw=true)
 
 these fields define which websites the extension will target, so it will not execute logic if it's not needed.
 
